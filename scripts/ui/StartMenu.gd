@@ -19,6 +19,9 @@ func _on_start_pressed() -> void:
 	# Butona basıldığında etkileşimi keselim
 	start_button.disabled = true
 	
+	# İlk odaya (TowerEntrance) girerken havadan düşmemesi için intro'yu geçici kapatalım
+	GameState.intro_played = true
+	
 	# Basit bir Fade-Out (Kararma) efekti başlatalım
 	var tween = create_tween()
 	tween.tween_property(fade_rect, "modulate:a", 1.0, 0.8)
