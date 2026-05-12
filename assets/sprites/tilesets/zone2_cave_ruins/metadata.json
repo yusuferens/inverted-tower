@@ -1,0 +1,176 @@
+﻿{
+    "name":  "Zone 2 — Cave Digging Site",
+    "tile_size":  {
+                      "width":  16,
+                      "height":  16
+                  },
+    "total_tiles":  16,
+    "tileset_id":  "5625a822-b4f3-45c4-9eda-0d2744ccdef0",
+    "tiles":  [
+                  {
+                      "corners":  {
+                                      "NW":  "upper",
+                                      "NE":  "upper",
+                                      "SW":  "lower",
+                                      "SE":  "upper"
+                                  },
+                      "name":  "wang_13",
+                      "id":  "67adf50c-6f04-40eb-8159-edfdddbadd68"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "upper",
+                                      "NE":  "lower",
+                                      "SW":  "upper",
+                                      "SE":  "lower"
+                                  },
+                      "name":  "wang_10",
+                      "id":  "59d6a41a-6894-4335-aa9b-4fda75b47402"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "lower",
+                                      "NE":  "upper",
+                                      "SW":  "lower",
+                                      "SE":  "lower"
+                                  },
+                      "name":  "wang_4",
+                      "id":  "3058f715-3586-4888-8290-d67a67328327"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "upper",
+                                      "NE":  "upper",
+                                      "SW":  "lower",
+                                      "SE":  "lower"
+                                  },
+                      "name":  "wang_12",
+                      "id":  "4cca6d93-0f59-4e78-9a58-fb285ce612c7"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "lower",
+                                      "NE":  "upper",
+                                      "SW":  "upper",
+                                      "SE":  "lower"
+                                  },
+                      "name":  "wang_6",
+                      "id":  "8bfb2045-1acb-40b4-9711-2f5a9293d4b6"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "upper",
+                                      "NE":  "lower",
+                                      "SW":  "lower",
+                                      "SE":  "lower"
+                                  },
+                      "name":  "wang_8",
+                      "id":  "c20626c8-19a5-4e61-9b74-6ca593443ad3"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "lower",
+                                      "NE":  "lower",
+                                      "SW":  "lower",
+                                      "SE":  "lower"
+                                  },
+                      "name":  "wang_0",
+                      "id":  "84c5cc51-bd5a-49c9-aad7-58ffe86c408e"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "lower",
+                                      "NE":  "lower",
+                                      "SW":  "lower",
+                                      "SE":  "upper"
+                                  },
+                      "name":  "wang_1",
+                      "id":  "5ae71cb4-5ada-4fa3-b0f6-11466b6167aa"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "upper",
+                                      "NE":  "lower",
+                                      "SW":  "upper",
+                                      "SE":  "upper"
+                                  },
+                      "name":  "wang_11",
+                      "id":  "60e30d3b-1056-4024-8f35-c22c203cf9ad"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "lower",
+                                      "NE":  "lower",
+                                      "SW":  "upper",
+                                      "SE":  "upper"
+                                  },
+                      "name":  "wang_3",
+                      "id":  "a8c6390c-59f6-4832-b737-6b4d27213269"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "lower",
+                                      "NE":  "lower",
+                                      "SW":  "upper",
+                                      "SE":  "lower"
+                                  },
+                      "name":  "wang_2",
+                      "id":  "59345e56-ac85-47a3-9e53-aab8e9ba33f6"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "lower",
+                                      "NE":  "upper",
+                                      "SW":  "lower",
+                                      "SE":  "upper"
+                                  },
+                      "name":  "wang_5",
+                      "id":  "d2542994-8d26-4642-bc99-a82f0c40a25c"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "upper",
+                                      "NE":  "upper",
+                                      "SW":  "upper",
+                                      "SE":  "upper"
+                                  },
+                      "name":  "wang_15",
+                      "id":  "660bca00-f9a1-4b91-93da-ecdc934cf429"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "upper",
+                                      "NE":  "upper",
+                                      "SW":  "upper",
+                                      "SE":  "lower"
+                                  },
+                      "name":  "wang_14",
+                      "id":  "473c2d4c-674f-4ae8-b806-7666fa12cd19"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "upper",
+                                      "NE":  "lower",
+                                      "SW":  "lower",
+                                      "SE":  "upper"
+                                  },
+                      "name":  "wang_9",
+                      "id":  "f73704b1-241d-49ca-a8ec-a237801074fe"
+                  },
+                  {
+                      "corners":  {
+                                      "NW":  "lower",
+                                      "NE":  "upper",
+                                      "SW":  "upper",
+                                      "SE":  "upper"
+                                  },
+                      "name":  "wang_7",
+                      "id":  "69c74e26-e11e-424f-884b-c8ab79fd0721"
+                  }
+              ],
+    "created_at":  "2026-05-08T22:22:44.3315676+03:00",
+    "terrain_types":  [
+                          "central",
+                          "background"
+                      ]
+}

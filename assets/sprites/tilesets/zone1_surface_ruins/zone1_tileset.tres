@@ -1,0 +1,102 @@
+[gd_resource type="TileSet" format=3 uid="uid://cnivult34hge1"]
+
+[ext_resource type="Texture2D" uid="uid://54vi1ccxk68c" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_0.png" id="1_oh7l6"]
+[ext_resource type="Texture2D" uid="uid://ddwypk4qjw0lw" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_1.png" id="2_ukoy0"]
+[ext_resource type="Texture2D" uid="uid://dqbps3673gt58" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_10.png" id="3_vveso"]
+[ext_resource type="Texture2D" uid="uid://dcysqadoulfwa" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_11.png" id="4_ehhcc"]
+[ext_resource type="Texture2D" uid="uid://c1kinf72eiwj0" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_12.png" id="5_vxxk3"]
+[ext_resource type="Texture2D" uid="uid://dca28wqli8cw8" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_13.png" id="6_thyyl"]
+[ext_resource type="Texture2D" uid="uid://bw4e281jcanis" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_14.png" id="7_4cesx"]
+[ext_resource type="Texture2D" uid="uid://e0f12vbki43j" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_15.png" id="8_olfur"]
+[ext_resource type="Texture2D" uid="uid://kae1iglprjeb" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_2.png" id="9_wutwi"]
+[ext_resource type="Texture2D" uid="uid://c07pbbb6ilj75" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_3.png" id="10_76pgv"]
+[ext_resource type="Texture2D" uid="uid://csx2hlua7xxk3" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_4.png" id="11_dcpim"]
+[ext_resource type="Texture2D" uid="uid://dr1onw4jp4n5q" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_5.png" id="12_wmcij"]
+[ext_resource type="Texture2D" uid="uid://cytermjkw4lkh" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_6.png" id="13_sn0ox"]
+[ext_resource type="Texture2D" uid="uid://cw68qmnooerla" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_7.png" id="14_s14f2"]
+[ext_resource type="Texture2D" uid="uid://c4dnyk4ay2vjm" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_8.png" id="15_g5s15"]
+[ext_resource type="Texture2D" uid="uid://bvm0ivceolffm" path="res://assets/sprites/tilesets/zone1_surface_ruins/wang_9.png" id="16_6p4no"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b5is1"]
+texture = ExtResource("1_oh7l6")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b4hjb"]
+texture = ExtResource("2_ukoy0")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w8agu"]
+texture = ExtResource("3_vveso")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fn733"]
+texture = ExtResource("4_ehhcc")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5i05t"]
+texture = ExtResource("5_vxxk3")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nvn3t"]
+texture = ExtResource("6_thyyl")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_35rxw"]
+texture = ExtResource("7_4cesx")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7h82v"]
+texture = ExtResource("8_olfur")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_02lrm"]
+texture = ExtResource("9_wutwi")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2myks"]
+texture = ExtResource("10_76pgv")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_scuxx"]
+texture = ExtResource("11_dcpim")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e3tvx"]
+texture = ExtResource("12_wmcij")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vi5pt"]
+texture = ExtResource("13_sn0ox")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_plljv"]
+texture = ExtResource("14_s14f2")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gdyqe"]
+texture = ExtResource("15_g5s15")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_13nqn"]
+texture = ExtResource("16_6p4no")
+0:0/0 = 0
+
+[resource]
+physics_layer_0/collision_layer = 2
+physics_layer_0/collision_mask = 0
+sources/0 = SubResource("TileSetAtlasSource_b5is1")
+sources/1 = SubResource("TileSetAtlasSource_b4hjb")
+sources/2 = SubResource("TileSetAtlasSource_02lrm")
+sources/3 = SubResource("TileSetAtlasSource_2myks")
+sources/4 = SubResource("TileSetAtlasSource_scuxx")
+sources/5 = SubResource("TileSetAtlasSource_e3tvx")
+sources/6 = SubResource("TileSetAtlasSource_vi5pt")
+sources/7 = SubResource("TileSetAtlasSource_plljv")
+sources/8 = SubResource("TileSetAtlasSource_gdyqe")
+sources/9 = SubResource("TileSetAtlasSource_13nqn")
+sources/10 = SubResource("TileSetAtlasSource_w8agu")
+sources/11 = SubResource("TileSetAtlasSource_fn733")
+sources/12 = SubResource("TileSetAtlasSource_5i05t")
+sources/13 = SubResource("TileSetAtlasSource_nvn3t")
+sources/14 = SubResource("TileSetAtlasSource_35rxw")
+sources/15 = SubResource("TileSetAtlasSource_7h82v")

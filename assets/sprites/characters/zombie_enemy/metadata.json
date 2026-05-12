@@ -1,0 +1,65 @@
+{
+  "character": {
+    "id": "6d88c2ee-1e5d-4236-8502-e4779c1d34b3",
+    "name": "zombie enemy",
+    "prompt": "zombified man with a broken sword dark medival style that has a eyerobe ",
+    "size": {
+      "width": 120,
+      "height": 120
+    },
+    "template_id": "mannequin",
+    "directions": 8,
+    "view": "side",
+    "created_at": "2026-05-08T16:56:45.787465+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "south-east": "rotations/south-east.png",
+      "east": "rotations/east.png",
+      "north-east": "rotations/north-east.png",
+      "north": "rotations/north.png",
+      "north-west": "rotations/north-west.png",
+      "west": "rotations/west.png",
+      "south-west": "rotations/south-west.png"
+    },
+    "animations": {
+      "The_character_leans_slightly_into_a_sudden_upward-e3745352": {
+        "south-east": [
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-east/frame_000.png",
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-east/frame_001.png",
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-east/frame_002.png",
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-east/frame_003.png",
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-east/frame_004.png"
+        ],
+        "south-west": [
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-west/frame_000.png",
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-west/frame_001.png",
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-west/frame_002.png",
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-west/frame_003.png",
+          "animations/The_character_leans_slightly_into_a_sudden_upward-e3745352/south-west/frame_004.png"
+        ]
+      },
+      "Walking-f6b45c0f": {
+        "south-west": [
+          "animations/Walking-f6b45c0f/south-west/frame_000.png",
+          "animations/Walking-f6b45c0f/south-west/frame_001.png",
+          "animations/Walking-f6b45c0f/south-west/frame_002.png",
+          "animations/Walking-f6b45c0f/south-west/frame_003.png",
+          "animations/Walking-f6b45c0f/south-west/frame_004.png",
+          "animations/Walking-f6b45c0f/south-west/frame_005.png"
+        ],
+        "south-east": [
+          "animations/Walking-f6b45c0f/south-east/frame_000.png",
+          "animations/Walking-f6b45c0f/south-east/frame_001.png",
+          "animations/Walking-f6b45c0f/south-east/frame_002.png",
+          "animations/Walking-f6b45c0f/south-east/frame_003.png",
+          "animations/Walking-f6b45c0f/south-east/frame_004.png",
+          "animations/Walking-f6b45c0f/south-east/frame_005.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-08T18:14:26.328402"
+}

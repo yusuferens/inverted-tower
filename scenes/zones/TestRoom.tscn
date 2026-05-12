@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://testroom001"]
+
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn" id="1_player"]
+[ext_resource type="PackedScene" path="res://scenes/enemies/ZombieEnemy.tscn" id="2_zombie"]
+[ext_resource type="Script" path="res://scripts/zones/Zone1Background.gd" id="3_bg"]
+[ext_resource type="Script" path="res://scripts/zones/Zone2Background.gd" id="4_bg2"]
+[ext_resource type="TileSet" path="res://assets/sprites/tilesets/zone1_surface_ruins/zone1_tileset.tres" id="5_tileset"]
+
+[node name="TestRoom" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_left = -1920.0
+offset_top = -1080.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.09, 0.07, 0.12, 1)
+z_index = -10
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("5_tileset")
+format = 2
+
+[node name="Zone1Background" type="Node2D" parent="."]
+script = ExtResource("3_bg")
+
+[node name="Zone2Background" type="Node2D" parent="."]
+script = ExtResource("4_bg2")
+
+[node name="Player" parent="." instance=ExtResource("1_player")]
+position = Vector2(200.0, 460.0)
+
+[node name="Zombie1" parent="." instance=ExtResource("2_zombie")]
+position = Vector2(600.0, 460.0)
+
+[node name="Zombie2" parent="." instance=ExtResource("2_zombie")]
+position = Vector2(350.0, 330.0)

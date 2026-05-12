@@ -1,0 +1,83 @@
+{
+  "character": {
+    "id": "af0973e3-aaeb-45e0-b968-3467cd34e8c5",
+    "name": "male main character",
+    "prompt": "male historian with robe no items at hand brown hair ",
+    "size": {
+      "width": 92,
+      "height": 92
+    },
+    "template_id": "mannequin",
+    "directions": 8,
+    "view": "low top-down",
+    "created_at": "2026-05-08T16:33:58.239095+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "south-east": "rotations/south-east.png",
+      "east": "rotations/east.png",
+      "north-east": "rotations/north-east.png",
+      "north": "rotations/north.png",
+      "north-west": "rotations/north-west.png",
+      "west": "rotations/west.png",
+      "south-west": "rotations/south-west.png"
+    },
+    "animations": {
+      "Breathing_Idle-32e00a9d": {
+        "south-east": [
+          "animations/Breathing_Idle-32e00a9d/south-east/frame_000.png",
+          "animations/Breathing_Idle-32e00a9d/south-east/frame_001.png",
+          "animations/Breathing_Idle-32e00a9d/south-east/frame_002.png",
+          "animations/Breathing_Idle-32e00a9d/south-east/frame_003.png"
+        ],
+        "south-west": [
+          "animations/Breathing_Idle-32e00a9d/south-west/frame_000.png",
+          "animations/Breathing_Idle-32e00a9d/south-west/frame_001.png",
+          "animations/Breathing_Idle-32e00a9d/south-west/frame_002.png",
+          "animations/Breathing_Idle-32e00a9d/south-west/frame_003.png"
+        ]
+      },
+      "Walking-6c4f671c": {
+        "south-east": [
+          "animations/Walking-6c4f671c/south-east/frame_000.png",
+          "animations/Walking-6c4f671c/south-east/frame_001.png",
+          "animations/Walking-6c4f671c/south-east/frame_002.png",
+          "animations/Walking-6c4f671c/south-east/frame_003.png",
+          "animations/Walking-6c4f671c/south-east/frame_004.png",
+          "animations/Walking-6c4f671c/south-east/frame_005.png"
+        ],
+        "south-west": [
+          "animations/Walking-6c4f671c/south-west/frame_000.png",
+          "animations/Walking-6c4f671c/south-west/frame_001.png",
+          "animations/Walking-6c4f671c/south-west/frame_002.png",
+          "animations/Walking-6c4f671c/south-west/frame_003.png",
+          "animations/Walking-6c4f671c/south-west/frame_004.png",
+          "animations/Walking-6c4f671c/south-west/frame_005.png"
+        ]
+      },
+      "The_character_quickly_shifts_their_weight_and_lung-ee50d2d1": {
+        "south-east": [
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-east/frame_000.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-east/frame_001.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-east/frame_002.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-east/frame_003.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-east/frame_004.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-east/frame_005.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-east/frame_006.png"
+        ],
+        "south-west": [
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-west/frame_000.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-west/frame_001.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-west/frame_002.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-west/frame_003.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-west/frame_004.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-west/frame_005.png",
+          "animations/The_character_quickly_shifts_their_weight_and_lung-ee50d2d1/south-west/frame_006.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-08T18:14:24.014615"
+}

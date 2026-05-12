@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://c2p4mxvt8jgq1"]
+
+[ext_resource type="Script" path="res://scripts/player/Player.gd" id="1_player"]
+[ext_resource type="PackedScene" uid="uid://playercam001" path="res://scenes/player/PlayerCamera.tscn" id="2_camera"]
+[ext_resource type="PackedScene" path="res://scenes/ui/PlayerHUD.tscn" id="3_hud"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_body"]
+radius = 14.0
+height = 28.0
+
+[sub_resource type="SeparationRayShape2D" id="SeparationRayShape2D_leg"]
+length = 16.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_attack"]
+size = Vector2(44, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hurt"]
+size = Vector2(28, 64)
+
+[node name="Player" type="CharacterBody2D" unique_id=315598281]
+collision_mask = 2
+script = ExtResource("1_player")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=50521278]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1780946070]
+position = Vector2(0, -4)
+shape = SubResource("CapsuleShape2D_body")
+
+[node name="LegRay" type="CollisionShape2D" parent="." unique_id=1828430906]
+position = Vector2(0, 10)
+shape = SubResource("SeparationRayShape2D_leg")
+
+[node name="AttackHitbox" type="Area2D" parent="." unique_id=446635528]
+position = Vector2(46, -8)
+collision_layer = 4
+collision_mask = 8
+monitoring = false
+monitorable = false
+
+[node name="AttackShape" type="CollisionShape2D" parent="AttackHitbox" unique_id=1955335085]
+shape = SubResource("RectangleShape2D_attack")
+
+[node name="HurtBox" type="Area2D" parent="." unique_id=646017392]
+collision_layer = 0
+collision_mask = 16
+monitorable = false
+
+[node name="HurtShape" type="CollisionShape2D" parent="HurtBox" unique_id=648726031]
+shape = SubResource("RectangleShape2D_hurt")
+
+[node name="PlayerCamera" parent="." unique_id=2062212834 instance=ExtResource("2_camera")]
+
+[node name="PlayerHUD" parent="." instance=ExtResource("3_hud")]
+
+[node name="InteractBox" type="Area2D" parent="." unique_id=207658493]
+collision_layer = 0
+collision_mask = 32
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractBox" unique_id=1456061097]
+shape = SubResource("RectangleShape2D_hurt")
